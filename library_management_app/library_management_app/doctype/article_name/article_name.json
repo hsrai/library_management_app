@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:Art-{YY}-{###}",
  "creation": "2024-08-17 09:12:15.910104",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -8,7 +9,25 @@
   "part_a_section",
   "title",
   "column_break_umvw",
-  "author"
+  "author",
+  "section_break_jkum",
+  "isbn",
+  "column_break_ojwp",
+  "status",
+  "section_break_csol",
+  "edition",
+  "column_break_cnoh",
+  "publisher",
+  "section_break_rphu",
+  "cost",
+  "column_break_yoqv",
+  "image",
+  "part_b_section",
+  "description",
+  "section_break_whvu",
+  "published",
+  "column_break_wowh",
+  "route"
  ],
  "fields": [
   {
@@ -31,14 +50,100 @@
    "fieldname": "author",
    "fieldtype": "Data",
    "label": "Author"
+  },
+  {
+   "fieldname": "section_break_jkum",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "label": "ISBN"
+  },
+  {
+   "fieldname": "column_break_ojwp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nIssued"
+  },
+  {
+   "fieldname": "section_break_csol",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "edition",
+   "fieldtype": "Data",
+   "label": "Edition"
+  },
+  {
+   "fieldname": "column_break_cnoh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "section_break_rphu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Cost"
+  },
+  {
+   "fieldname": "column_break_yoqv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "part_b_section",
+   "fieldtype": "Section Break",
+   "label": "Part B"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Markdown Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_whvu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "column_break_wowh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-17 09:15:04.296432",
+ "modified": "2024-08-17 19:41:36.871924",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Article Name",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -54,7 +159,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }
