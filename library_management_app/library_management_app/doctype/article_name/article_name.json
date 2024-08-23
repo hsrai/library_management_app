@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "format:Art-{YY}-{###}",
  "creation": "2024-08-17 09:12:15.910104",
@@ -137,10 +138,12 @@
    "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "image_field": "image",
  "index_web_pages_for_search": 1,
+ "is_published_field": "published",
  "links": [],
- "modified": "2024-08-23 13:12:32.633928",
+ "modified": "2024-08-23 15:45:50.664817",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Article Name",
@@ -160,9 +163,11 @@
    "write": 1
   }
  ],
+ "route": "route",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "title"
+ "title_field": "title",
+ "website_search_field": "title"
 }
