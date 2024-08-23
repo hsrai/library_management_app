@@ -112,6 +112,7 @@
    "label": "Part B"
   },
   {
+   "default": "Write description (by replacing this helping text) in markdown format\n\n[MarkDown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)\n\nUse cheatsheet about markdown in link above enclosed in round brackets.",
    "fieldname": "description",
    "fieldtype": "Markdown Editor",
    "label": "Description"
@@ -139,7 +140,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-17 19:41:36.871924",
+ "modified": "2024-08-23 13:12:32.633928",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Article Name",
