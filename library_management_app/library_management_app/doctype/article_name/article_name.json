@@ -143,7 +143,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2024-08-23 15:45:50.664817",
+ "modified": "2024-08-24 19:20:12.151221",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Article Name",
@@ -163,7 +163,7 @@
    "write": 1
   }
  ],
- "route": "route",
+ "route": "article",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
