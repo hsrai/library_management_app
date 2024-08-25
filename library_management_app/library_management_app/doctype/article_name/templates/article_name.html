@@ -7,10 +7,13 @@
 <div class="py-20 row">
 <div class="col-sm-2">
 <img alt="{{ title }}" src="{{ image }}"/>
+<hr/>
+<a class="font-size-lg" href="."> <- Back to list</a>
+
 </div>
 <div class="col">
 <h1>{{ title }}</h1>
-<p class="lead">By {{ author }}</p>
+<p class="lead">by {{ author }}</p>
 <div>
 
             {%- if status == 'Available' -%}
