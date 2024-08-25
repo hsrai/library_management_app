@@ -22,11 +22,11 @@
   "section_break_rphu",
   "cost",
   "column_break_yoqv",
-  "image",
+  "published",
   "part_b_section",
   "description",
   "section_break_whvu",
-  "published",
+  "image",
   "column_break_wowh",
   "route"
  ],
@@ -105,6 +105,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Image"
   },
   {
@@ -135,6 +136,7 @@
   {
    "fieldname": "route",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Route"
   }
  ],
@@ -143,7 +145,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2024-08-25 06:09:07.720070",
+ "modified": "2024-08-25 17:07:57.914402",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Article Name",
