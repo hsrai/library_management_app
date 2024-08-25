@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-25 20:09:55.077652",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_zxab",
+  "amended_from",
+  "section_break_pkqd",
+  "article_name",
+  "type",
+  "column_break_eybr",
+  "library_member",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_zxab",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Library Transaction",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_pkqd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_name",
+   "fieldtype": "Link",
+   "label": "Article Name",
+   "options": "Article Name"
+  },
+  {
+   "fieldname": "column_break_eybr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "label": "Library Member",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Issue\nReturn"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-25 20:13:57.781592",
+ "modified_by": "Administrator",
+ "module": "Library Management App",
+ "name": "Library Transaction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
