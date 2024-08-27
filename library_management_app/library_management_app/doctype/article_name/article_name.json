@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_guest_to_view": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:Art-{YY}-{###}",
  "creation": "2024-08-17 09:12:15.910104",
@@ -105,7 +106,6 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
-   "hidden": 1,
    "label": "Image"
   },
   {
@@ -145,7 +145,8 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2024-08-25 17:07:57.914402",
+ "make_attachments_public": 1,
+ "modified": "2024-08-27 14:35:07.850530",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Article Name",
@@ -161,6 +162,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -199,10 +201,7 @@
   }
  ],
  "route": "article",
- "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "title_field": "title",
- "website_search_field": "title"
+ "states": []
 }

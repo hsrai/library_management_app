@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"E8-S-MQ3mS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Data Entry</span>\",\"col\":12}},{\"id\":\"s_-StqgmHg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Book Entry\",\"col\":3}}]",
+ "content": "[{\"id\":\"E8-S-MQ3mS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Data Entry</span>\",\"col\":12}},{\"id\":\"s_-StqgmHg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Book Entry\",\"col\":3}},{\"id\":\"1SZxadnLfX\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"IKhjzkDH4F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction List\",\"col\":3}},{\"id\":\"hipeSrJkt8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Transaction\",\"col\":3}},{\"id\":\"syLW_PcHkG\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"6d12Y7xDsJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Member List\",\"col\":3}},{\"id\":\"uNcN3wlYid\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Member\",\"col\":3}},{\"id\":\"S_OLPLFDkd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"n0y5alsxZa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membership List\",\"col\":3}},{\"id\":\"RgdtUmy6K2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New membership\",\"col\":3}}]",
  "creation": "2024-08-25 09:21:46.865742",
  "custom_blocks": [],
  "docstatus": 0,
@@ -8,12 +8,12 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "down-arrow",
- "idx": 0,
+ "idx": 1,
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Library Data Entry",
  "links": [],
- "modified": "2024-08-25 09:30:29.534877",
+ "modified": "2024-08-25 21:10:45.154852",
  "modified_by": "Administrator",
  "module": "Library Management App",
  "name": "Library Data Entry",
@@ -25,15 +25,66 @@
  "roles": [
   {
    "role": "Data Entry"
+  },
+  {
+   "role": "Librarian"
   }
  ],
  "sequence_id": 28.0,
  "shortcuts": [
   {
    "color": "Grey",
+   "doc_view": "New",
+   "label": "New Transaction",
+   "link_to": "Library Transaction",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Member List",
+   "link_to": "Library Member",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
    "doc_view": "List",
    "label": "Book Entry",
    "link_to": "Article Name",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Transaction List",
+   "link_to": "Library Transaction",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "New Member",
+   "link_to": "Library Member",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Membership List",
+   "link_to": "Library Membership",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New membership",
+   "link_to": "Library Membership",
    "stats_filter": "[]",
    "type": "DocType"
   }
